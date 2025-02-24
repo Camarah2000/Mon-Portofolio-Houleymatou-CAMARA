@@ -1,0 +1,50 @@
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+    background: #f8f8f8;
+    text-align: left;
+}
+
+.photo-profil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.about-text {
+    max-width: 600px;
+}
+
+.about-text h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-text p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.photo-profil {
+    width: 5px;  /* Largeur réduite */
+    height: 5px; /* Hauteur réduite */
+    border-radius: 50%; /* Rend la photo ronde */
+    object-fit: cover; /* Ajuste l'image sans déformation */
+}
+body{
+    color:black
+}
